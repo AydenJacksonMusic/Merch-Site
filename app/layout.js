@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
             <CartLink />
           </header>
           {children}
+  <footer>&copy; 2026 Ayden Jackson</footer>
         </CartProvider>
       </body>
     </html>
