@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CartProvider } from "./cart-context";
 import { CartLink } from "./cart-link";
 
-export const metadata = { title: "Ayden Jackson Shop" };
+export const metadata = { title: "Ayden Jackson | Official Website" };
 
 export default function RootLayout({ children }) {
   return (
