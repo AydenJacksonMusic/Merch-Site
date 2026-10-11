@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CartLink } from "../cart-link";
+import { CartLink, CartLinkDesk } from "../cart-link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,8 @@ export default function Header() {
           </button>
 
           {/* Cart */}
-          <CartLink />
+          
+            <CartLink />
         </div>
 
         {/* Navigation Menu */}
@@ -45,7 +46,7 @@ export default function Header() {
             }
           `}
         >
-          <ul className="flex flex-col sm:flex-row justify-evenly gap-6 sm:gap-0">
+          <ul className="flex flex-col sm:flex-row gap-10">
             <li>
               <Link href="/" onClick={() => setIsOpen(false)}>About</Link>
             </li>
@@ -59,9 +60,7 @@ export default function Header() {
               <Link href="/" onClick={() => setIsOpen(false)}>News</Link>
             </li>
             <li className="max-sm:hidden">
-              <Link href="/">
-                <i className="fa-solid fa-cart-shopping"></i> Cart (0)
-              </Link>
+              <CartLinkDesk />
             </li>
           </ul>
         </div>

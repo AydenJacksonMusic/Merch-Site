@@ -61,7 +61,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$cart$2d$context$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/cart-context.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$cart$2d$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/cart-link.js [app-rsc] (ecmascript)");
 (()=>{
-    const e = new Error("Cannot find module './sections/Header'");
+    const e = new Error("Cannot find module '@/components/Header'");
     e.code = 'MODULE_NOT_FOUND';
     throw e;
 })();

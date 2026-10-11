@@ -1,6 +1,10 @@
 {
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/app/cart/page": [],
+    "[project]/app/page": [],
+    "[project]/app/products/[slug]/page": []
+  },
+  "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
