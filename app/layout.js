@@ -2,6 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import { CartProvider } from "./cart-context";
 import { CartLink } from "./cart-link";
+import { Header } from "../app/components/Header"
 
 export const metadata = { title: "Ayden Jackson | Official Website" };
 
@@ -10,10 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <CartProvider>
-          <header>
-            <Link href="/">Ayden Jackson</Link>
-            <CartLink />
-          </header>
+          <Header></Header>
           {children}
           <footer className="h-[100px] bg-black text-white text-center">
       <div className="w-[80%] m-auto flex max-sm:flex-col justify-between sm:p-[30px]">
